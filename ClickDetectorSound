@@ -1,0 +1,4 @@
+local sound = script.Parent.yoursoundname
+script.Parent.ClickDetector.MouseClick:Connect(function()	
+sound:play()
+end)
